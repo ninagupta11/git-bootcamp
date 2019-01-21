@@ -26,6 +26,7 @@ queue_t *q_new()
 {
     queue_t *q =  malloc(sizeof(queue_t));
     /* What if malloc returned NULL? */
+    make new q
     q->head = NULL;
     return q;
 }
@@ -35,7 +36,8 @@ void q_free(queue_t *q)
 {
     /* How about freeing the list elements and the strings? */
     /* Free queue structure */
-    free(q);
+    done
+	free(q);
 }
 
 /*
